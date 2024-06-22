@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Card</title>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+			integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+        <link rel="stylesheet" href="style.css">
+        
+        <script>
+            function redirectToQRCode() {
+                window.location.href = "fd.jpg"; 
+            }
+        </script>
+	</head>
+	<body>
+		<div class="card">
+			<div class="card__img">
+				<img src="NguyenQuy.jpg" alt="">
+			</div>
+
+			<h2>Bảo Khánh</h2>
+
+			<p></p>
+
+			<div class="card__social">
+				<a target="_black" href="https://www.facebook.com/s.lysiryus">
+					<i class="fab fa-facebook-f"></i>
+				</a>
+                
+                <a target="_blank" href="https://open.spotify.com/user/31awoajkzgdrxdrp3g2t2kis7kxq">
+					<i class="fab fa-spotify"></i>
+				</a>
+
+				
+				
+				
+			</div>
+			
+			<div>
+				<button style="border-radius: 30px;" onclick="redirectToQRCode()">Payment</button>
+			</div>
+		</div>
+	</body>
+</html>
