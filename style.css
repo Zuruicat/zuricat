@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 
 :root {
-	--pink-color: #1435ba;
+	--pink-color: #FF6B33;
 }
 
 * {
@@ -83,7 +83,7 @@ p {
     border: none; 
     
     border-radius: 30px;
-    background-color: #007bff; 
+    background-color: #FF6B33; 
     color: white; 
     padding: 10px 20px; 
 }
@@ -119,8 +119,8 @@ button:hover {
 
 
 
-.card__social .fab.fa-steam:hover {
-    color: #00ADEE; 
+.card__social .fab.fa-tiktok:hover {
+    color: black; 
 }
 .card__social .fab.fas-lock:hover{
 	color:yellow
